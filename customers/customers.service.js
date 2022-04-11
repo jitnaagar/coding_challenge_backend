@@ -14,11 +14,12 @@ async function getAll(req) {
     let count = await await db.Customer.count({
         where: whereClause
     })
+  
     let customers = await db.Customer.findAll({
         where: whereClause,
         order: [['id', 'DESC']],
         limit,
-        offset: Number(req.page),
+        offset: (Number(req.page)-1) * limit,
     }).then(result=>result).catch(error=>error);
     return {limit,count,customers};
 }

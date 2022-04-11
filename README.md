@@ -1,23 +1,41 @@
-# Coding Challange 
+# Abudhabi Capital Group Assignment
 
+coding challenge
 
-## database 
+## Prerequisite
 
-coding_challenge.sql
+Node,
+MySql
 
+## Installation
 
-## API Reference
-
-#### Get all items
-
-```http
-  GET /api/customers?search=test&page=1
+```bash
+git clone https://github.com/jitnaagar/coding_challenge_backend.git # or clone your own fork
+cd coding_challenge_backend
+npm install
 ```
 
 
+```bash
+npm start
+```
+## database 
+coding_challenge.sql
 
 
-## Authors
+## Contributor
+Jitender Naagar
 
-- [Jitender](https://github.com/jitnaagar)
 
+## Submission Date
+
+11th April 2022
+
+
+
+
+
+
+
+
+ 
