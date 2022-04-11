@@ -1,1 +1,3 @@
-# coding_challenge_backend
+# node-coding-challenge-api
+
+Node.js + MySQL
